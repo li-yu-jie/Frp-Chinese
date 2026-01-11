@@ -8,7 +8,7 @@
         <div class="header-actions">
           <a
             class="github-link"
-            href="https://github.com/fatedier/frp"
+            href="https://github.com/li-yu-jie/Frp-Chinese"
             target="_blank"
             aria-label="GitHub"
           >

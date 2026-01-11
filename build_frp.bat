@@ -6,11 +6,11 @@ chcp 65001 > nul 2>&1
 :: 注意：修改以下参数即可切换架构/系统，无需改动其他脚本内容
 :: ==============================================
 :: 目标架构：arm64 / amd64 / arm / 386（Go 支持的规范架构名称）
-set "TARGET_ARCH=amd64"
+set "TARGET_ARCH=arm64"
 :: 目标系统：linux / windows / darwin（Go 支持的规范系统名称）
-set "TARGET_OS=windows"
+set "TARGET_OS=linux"
 :: 产物后缀：Windows 系统填 ".exe"，Linux/macOS 系统填 ""（直接留空，不要添加任何字符）
-set "EXE_SUFFIX=.exe"
+set "EXE_SUFFIX="
 :: 产物基础名称（无需修改，保持 frps/frpc 即可）
 set "FRPS_NAME=frps"
 set "FRPC_NAME=frpc"
